@@ -1,0 +1,13 @@
+[project]
+name = "mlm"
+version = "0.1.0"
+description = "for using simons llm and ollama models on jeeves"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "files-to-prompt>=0.6",
+    "llm>=0.27.1",
+    "shot-scraper>=1.8",
+    "strip-tags>=0.6",
+    "ttok>=0.3",
+]
